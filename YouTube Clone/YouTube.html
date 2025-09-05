@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+
+  <!-- This is a comment... nothing else -->
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="Icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+       <input class="search-bar" type="text" placeholder="Search">
+       <button class="search-button">
+        <img class="search-icon" src="Icons/search.svg">
+        <div class="tooltip">Search</div>
+       </button>
+       <button class="voice-button">
+        <img class="voice-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Voice Search</div>
+       </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="Icons/upload.svg">
+          <div class="tooltip">Upload</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="bell-icon-container">
+          <img class="bell-icon" src="Icons/notifications.svg">
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <div class="personal-picture-container">
+          <img class="personal-picture" src="Channel/channels4_profile.jpg">
+          <div class="tooltip">Profile</div>
+        </div>
+      </div>
+    </header>
+
+    
+
+    <nav class="sidebar">
+      <div class="sidebar-icon">
+        <img src="Icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="Icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="Icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="Icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="Icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="Icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/n2RNcPRtAiY?si=DRHIuYfJnwPEbaQ2">
+              <img class="thumbnail" src="Thumbnails/thumbnail-1.webp">
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a class="channel-link" href="https://youtube.com/@mkbhd?si=DlHukrbR3p8gvpyy">
+                <img class="profile-picture" src="Channel/channel-1.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/n2RNcPRtAiY?si=DRHIuYfJnwPEbaQ2">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://youtube.com/@mkbhd?si=DlHukrbR3p8gvpyy">
+                  Marques Brownlee
+                </a>
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/mP0RAo9SKZk?si=c_UmrhP-pxqimP2e">
+            <img class="thumbnail" src="Thumbnails/thumbnail-2.webp">
+            </a>
+  
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a class="channel-link" href="https://youtube.com/@markiplier?si=uzHXJS-G4dhnsb56">
+                <img class="profile-picture" src="Channel/channel-2.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/mP0RAo9SKZk?si=c_UmrhP-pxqimP2e">
+                  Try Not To Laugh Challenge #9
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://youtube.com/@markiplier?si=uzHXJS-G4dhnsb56">
+                 Markiplier 
+                </a>
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/CRGMRN9Otrs?si=P1dxAFpDWrcTWCd6">
+              <img class="thumbnail" src="Thumbnails/hqdefault.avif">
+            </a>
+            <div class="video-time">9:50</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a class="channel-link" href="https://www.youtube.com/@penguinz0">
+                <img class="profile-picture" src="Channel/unnamed.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/CRGMRN9Otrs?si=P1dxAFpDWrcTWCd6">
+                 Most Anticipated Game of 2025 Just Came Out
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@penguinz0">
+                  penguinz0      
+                </a>
+  
+              </p>
+              <p class="video-stats">
+                478k views &#183; 10 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/ar8Wlel1Vg8?si=c4X5SqKQqpiZJno9">
+              <img class="thumbnail" src="Thumbnails/hqdefault2.avif">
+            </a>
+            <div class="video-time">9:58</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Crossfire-X">
+                <img class="profile-picture" src="Channel/channels4_profile.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/ar8Wlel1Vg8?si=c4X5SqKQqpiZJno9">
+                 Minecraft Easy Creeper Farm | 1700+ Gunpowder per hour - 1.21
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@Crossfire-X">
+                  Crossfire
+                </a>
+              </p>
+              <p class="video-stats">
+                166K views &#183; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/_LB7X5zCYE0?si=7FExmE4z49-2iyDs">
+              <img class="thumbnail" src="Thumbnails/hq720.avif">
+            </a>
+            <div class="video-time">6:02</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@danielthrasher">
+                <img class="profile-picture" src="Channel/unnamed2.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/_LB7X5zCYE0?si=7FExmE4z49-2iyDs">
+                  Guy With ADHD Tries To Defuse Bomb
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@danielthrasher">
+                 Daniel Thrasher 
+                </a>
+              </p>
+              <p class="video-stats">
+                514k views &#183; 9 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/Q5mzcaHdn6Q?si=tANZUmUAzp_BundC">
+              <img class="thumbnail" src="Thumbnails/hq7201.avif">
+            </a>
+            <div class="video-time">9:09</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CSSnippets">
+                <img class="profile-picture" src="Channel/channels4d_profile.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/Q5mzcaHdn6Q?si=tANZUmUAzp_BundC">
+                 Responsive Login Form with Floating Labels | HTML & CSS Tutorial 
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@CSSnippets">
+                  CSSnippets
+                </a>
+              </p>
+              <p class="video-stats">
+                502k views &#183; 22 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/p1QU3kLFPdg?si=c4ovSYK7LGZ8ys84">
+              <img class="thumbnail" src="Thumbnails/hq72f0.avif">
+            </a>
+            <div class="video-time">29:37</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="profile-picture" src="Channel/unnamed (1).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/p1QU3kLFPdg?si=c4ovSYK7LGZ8ys84">
+                  How to put an HTML website online (on the Internet)
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@SuperSimpleDev">
+                  SuperSimpleDev
+                </a>
+              </p>
+              <p class="video-stats">
+                2.3M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/SJNbnVjecf0?si=sPVwpb9bYHu96kpg">
+              <img class="thumbnail" src="Thumbnails/hq720 (1).avif">
+            </a>
+            <div class="video-time">16:06</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Mrwhosetheboss">
+                <img class="profile-picture" src="Channel/channels4cf_profile.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://youtu.be/SJNbnVjecf0?si=sPVwpb9bYHu96kpg">
+                  World's Cheapest vs Most Expensive Laptop!
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@Mrwhosetheboss">
+                  Mrwhosetheboss
+                </a>
+              </p>
+              <p class="video-stats">
+                13M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=7FoZSrzXt8s&pp=ygUoIFBhcmVudGFsIENvbnRyb2xzIHZzIFNjYW1tZXI6IFdobyBXaW5zPw%3D%3D">
+            <img class="thumbnail" src="Thumbnails/hq72ffffgf0.avif">
+          </a>
+            <div class="video-time">19:14</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@ScammerPayback">
+                <img class="profile-picture" src="Channel/fdsfsdgg.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=7FoZSrzXt8s&pp=ygUoIFBhcmVudGFsIENvbnRyb2xzIHZzIFNjYW1tZXI6IFdobyBXaW5zPw%3D%3D">
+                  Parental Controls vs Scammer: Who Wins?
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/@ScammerPayback">
+                  Scammer Payback
+                </a>
+              </p>
+              <p class="video-stats">
+                1.1M views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <img class="thumbnail" src="Thumbnails/thumbnail-5.webp">
+            </a>
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/CSDojo">
+                <img class="profile-picture" src="Channel/channel-5.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                  Kadane's Algorithm to Maximum Sum Subarray Problem
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/CSDojo">
+                  CS Dojo
+                </a>
+              </p>
+              <p class="video-stats">
+                519K views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+              <img class="thumbnail" src="Thumbnails/thumbnail-9.webp">
+            </a>
+            <div class="video-time">13:17</div>
+          </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                <img class="profile-picture" src="Channel/channel-9.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                  The SECRET to Super Human STRENGTH
+                </a> 
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                  ThenX
+                </a>
+              </p>
+              <p class="video-stats">
+                20M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+              <img class="thumbnail" src="Thumbnails/thumbnail-8.webp">
+            </a>          
+          <div class="video-time">7:12</div>
+        </div>
+          <div class="below-thumbnail">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg">
+                <img class="profile-picture" src="Channel/channel-8.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="title"> 
+                <a class="video-link" href="https://www.youtube.com/watch?v=lFm4EM1juls">
+                  Inside The World's Biggest Passenger Plane
+                </a>
+              </p>
+              <p class="video-author">
+                <a class="channel-link" href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg">
+                  Tech Vision
+                </a>
+              </p>
+              <p class="video-stats">
+                3.7M views &#183; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
